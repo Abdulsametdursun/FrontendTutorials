@@ -1,0 +1,16 @@
+1. Definition- Purpose There will be 2 roles in the application, 
+    default register user, other role is admin. 
+
+2. Dependencies:
+    ->react-router-dom
+    ->axios
+    ->redux,
+    ->json-server
+    -> ui bootstrap
+
+3. SCENARIO
+    A. LOGIN&REGISTER
+        - Login (userInformation - role,username,isLogin) information will be kept in localstorage. 
+        When the application is opened, localstorage will be checked.
+        - If it is Login, redirect to homepage, if not, redirect to login
+        - Login information will also be kept in redux.
